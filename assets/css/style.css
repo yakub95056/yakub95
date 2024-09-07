@@ -1,0 +1,326 @@
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Noto Sans", sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+
+.header{
+    background-color: #163A24;
+    color: #FBFAF7;
+}
+
+.container{
+    max-width: 1220px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 auto;
+}
+
+.header__wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.header__link{
+    color: #FBFAF7;
+}
+
+.header__buttons{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.btn{
+    background-color: #198C36;
+    padding: 15px 25px;
+    border-radius: 160px;
+}
+
+.button{
+    color: #fff;
+}
+
+
+
+
+.first_section{
+    height: calc(100vh - 98px);
+    padding-top: 120px;
+    background-image: url(../img/men.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.first_section_text{
+    color: #fff;
+}
+
+.section_title{
+    font-family: 'Recoleta', sans-serif;
+    font-weight: bolder;
+    padding-top: 40px;
+    font-size: 48px;
+}
+
+.section_sub-block{
+    padding-top: 18px;
+    font-size: 18px;
+}
+
+
+
+
+.picture1{
+    margin-top: calc(-250px + 130px);
+    margin-left: 10vh;
+}
+
+.sec1{
+    display: flex;
+    margin: 0 auto;
+}
+
+.text1{
+    padding-left: 99px;
+}
+
+.p2t1{
+    font-family: 'Recoleta', sans-serif;
+    font-size: 48px;
+}
+
+.p2t2{
+    font-size: 18px;
+    padding-top: 27px;
+}
+
+.sec2{
+    display: flex;
+    margin: 0 auto;
+}
+
+.text2{
+    padding-left: 99px;
+}
+
+.p2t3{
+    font-family: 'Recoleta', sans-serif;
+    padding-top: 115px;
+    font-size: 48px;
+}
+
+.p2t4{
+    font-size: 18px;
+    padding-top: 27px;
+}
+
+.picture2{
+    padding-left: 116px;
+}
+
+.container_center{
+    max-width: 1220px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.the_best_text{
+    font-family: 'Recoleta', sans-serif;
+    padding-top: 113px;
+    text-align: center;
+    font-size: 48px;
+}
+
+.the_best_img{
+    padding-top: 66px;
+    padding-bottom: 120px;
+    max-width: 983px;
+    margin: 0 auto;
+}
+
+
+
+
+.three_section{
+    background-image: url(../img/page3_wall.svg);
+    background-size: cover;
+    background-repeat: repeat-x;
+    background-position: center;
+    max-height: 85vh;
+}
+
+.just_center{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.page3_piece_text{
+    color: #FBFAF7;
+    font-size: 18px;
+    padding-top: 40vh;
+    padding-bottom: 139px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.p3t1{
+    font-family: 'Recoleta', sans-serif;
+    color: #FBFAF7;
+    padding-top: 90px;
+    font-size: 66px;
+}
+
+.p3t2{
+    padding-right: 22vh;
+}
+
+.p3t3{
+    padding-right: 13vh;
+}
+
+.p3t4{
+    padding-left: 13vh;
+}
+
+.p3t5{
+    padding-left: 22vh;
+}
+
+
+
+
+.four_section{
+    background-image: url(../img/page4_wall.svg);
+    background-size: cover;
+    background-repeat: repeat-x;
+    background-position: center;
+    max-height: 100vh;
+}
+
+.p4t1{
+    font-family: 'Recoleta', sans-serif;
+    color: #163A24;
+    padding-top: 115px;
+    font-size: 48px;
+}
+
+.p4t2{
+    color: #163A24;
+    padding-top: 26px;
+    padding-bottom: 600px;
+    font-size: 18px;
+}
+
+
+
+
+.five_section{
+    color: #163A24;
+}
+
+.sec5{
+    display: flex;
+    margin: 0 auto;
+}
+
+.p5t1{
+    font-family: 'Recoleta', sans-serif;
+    font-size: 48px;
+    padding-top: 274px;
+}
+
+.p5t2{
+    padding-top: 27px;
+    padding-bottom: 237px;
+    font-size: 18px;
+}
+
+.characters{
+    padding-left: 105px;
+}
+
+
+
+.footer{
+    max-width: 1220px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 auto;
+}
+
+.footer_wrapper{
+    background-image: url(../img/footer.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    max-height: 200vh;
+    margin: 20px 0;
+}
+
+.footer_logo{
+    max-width: 110px;
+}
+
+.slogan{
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Recoleta', sans-serif;
+    font-size: 24px;
+    padding-top: 40px;
+}
+
+.underline{
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.copyright{
+    padding-top: 40px;
+    padding-left: 110px;
+    font-size: 14px;
+}
+
+.f_bttns{
+    padding-top: 40px;
+    color: #198C36;
+    font-size: 14px;
+    padding-right: 110px;
+    text-decoration: none;
+}
+
+
+.btn2{
+    padding-left: 14px;
+}
+
+.btn3{
+    padding-left: 14px;
+}
+
+.btn4{
+    padding-left: 14px;
+}
+    
+.btn5{
+    padding-left: 14px;
+}
